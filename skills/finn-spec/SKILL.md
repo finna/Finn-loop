@@ -1,6 +1,6 @@
 ---
-name: spec
-description: Interview the user about a raw idea until confident, then file a build-ready issue in Linear. Use when asked to spec an idea, draft an issue, or plan a feature. Interactive — requires the user present; never run unattended.
+name: finn-spec
+description: Interview the user about a raw idea until confident, then file a build-ready issue in Linear. Use when asked to run Finn-loop's spec interview, draft a queue-ready issue, or plan a feature. Interactive — requires the user present; never run unattended.
 ---
 
 # Spec interview
@@ -85,7 +85,9 @@ Rules for the draft:
 ## 4. Confirm and file
 
 Show the full draft in chat and get the user's go-ahead. Then create the
-issue in Linear (via the Linear connector) with the draft as the body.
+issue on the configured `TEAM` Linear team (via the Linear connector) with
+the draft as the body. Report the exact issue identifier and URL returned by
+Linear; later skills use that identifier rather than guessing it.
 
 ## Hard rule
 
